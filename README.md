@@ -97,7 +97,10 @@ You can test this project using **Online Python Editor and IDE**
             'WV': 'West Virginia',
             'WY': 'Wyoming'
     }
-    Write a program that randomly displays an abbreviation from this list, and then asks the user to enter the full name that matches that abbreviation. Once the user guesses, let the user know whether they are correct or incorrect. If they are incorrect, display the correct answer to the user.
+    Write a program that randomly displays an abbreviation from this list, 
+    and then asks the user to enter the full name that matches that abbreviation. Once the user guesses, 
+    let the user know whether they are correct or incorrect. 
+    If they are incorrect, display the correct answer to the user.
 
 ### Todos
 
