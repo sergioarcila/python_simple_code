@@ -34,17 +34,23 @@ def highestGrade(dataset, studentName):
     else:
         return None
 
-
+def exist_Student(dataset, studentName):
+    if studentName in dataset.keys():
+      return True
+    else:
+      return False
 def main():
     data = {}
     for i in range(len(studentName)):
         data[studentName[i].lower()] = studentGrade[i]
 
     student_name = input("Student's name:").lower()
-    print('Lowest Grade: %s' % lowestGrade(data, student_name))
-    print('Highest Grade: %s' % highestGrade(data, student_name))
-    print('Average Grade: %s' % calculateAverage(data, student_name))
-
+    if exist_Student(data,student_name):
+      print('Lowest Grade: %s' % lowestGrade(data, student_name))
+      print('Highest Grade: %s' % highestGrade(data, student_name))
+      print('Average Grade: %s' % calculateAverage(data, student_name))
+    else:
+      print('Sorry! There is no student with that name.')
 
 if __name__ == '__main__':
     main()

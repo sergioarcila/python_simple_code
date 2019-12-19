@@ -1,4 +1,4 @@
-
+from datetime import datetime
 from random import seed
 from random import randint
 
@@ -63,14 +63,16 @@ states = {
 }
 
 def main():
-    seed(7777)
+    now = datetime.now()
+
+    seed(now.second)
     index = randint(0, len(states.keys()) - 1)
     key = list(states)[index]
     val = input("Input for '%s':" % key).lower()
     if val.lower() == states[key].lower():
         print("Correct!")
     else:
-        print("Incorrect!")
+        print("Incorrect. The correct answer: %s" % states[key])
 
 
 if __name__ == '__main__':

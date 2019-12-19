@@ -1,8 +1,9 @@
 # Python Simple Code
 
-[![N|Solid](https://www.python.org/static/community_logos/python-powered-h-50x65.png](https://www.onlinegdb.com/online_python_compiler)
+[![Python3|Online IDE](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/06/idle.png)](https://repl.it/languages/python3)
+You can test this project using **Online Python Editor and IDE**
 
-# Project Requirement
+# Requirements
 
   ### Question1
     Write a program that displays the following data:
@@ -32,7 +33,7 @@
     Name:
     Lowest Grade: 
     Highest Grade:
-    Average Grade
+    Average Grade:
 
   ### Question3
     The following dictionary contains the list of US states with their abbreviations as keys and full names as values:
