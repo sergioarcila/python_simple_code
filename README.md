@@ -1,8 +1,6 @@
 # Python Simple Code
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![N|Solid](https://www.python.org/static/community_logos/python-powered-h-50x65.png](https://www.onlinegdb.com/online_python_compiler)
 
 # Project Requirement
 
